@@ -1,0 +1,17 @@
+# Frame extraction
+opencv-python>=4.9
+
+# Baseline check + training (Colab already has TensorFlow)
+tensorflow>=2.16
+pillow>=10.0
+pillow-heif>=0.16
+
+# Dataset hosting
+huggingface_hub>=1.0
+datasets>=3.0
+
+# Evaluation + charts
+scikit-learn>=1.4
+matplotlib>=3.8
+pandas>=2.0
+numpy>=1.26

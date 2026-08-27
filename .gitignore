@@ -1,0 +1,28 @@
+# Data lives on Hugging Face, not in git.
+data/
+videos/
+videos_done/
+photos/
+*.mp4
+*.mov
+*.MOV
+*.m4v
+
+# Trained models — publish to the HF Hub as a model repo instead.
+*.keras
+*.h5
+*.onnx
+*.sentis
+*.tflite
+classes.txt
+metrics.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
