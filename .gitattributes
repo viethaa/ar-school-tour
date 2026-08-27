@@ -1,2 +1,5 @@
 # Mark the repo's primary language explicitly.
 *.py linguist-detectable=true
+
+# Notebooks are JSON with embedded output — keep them out of the language stats
+*.ipynb linguist-documentation
