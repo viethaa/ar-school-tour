@@ -1,6 +1,2 @@
-# Notebooks are JSON with embedded output — they would otherwise dominate
-# GitHub's language stats and hide the actual Python.
-*.ipynb linguist-documentation
-
 # Mark the repo's primary language explicitly.
 *.py linguist-detectable=true
